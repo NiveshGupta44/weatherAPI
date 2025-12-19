@@ -7,7 +7,7 @@ const errorMessage = document.getElementById("error-message");
 const getWeatherBtn=document.getElementById("get-weather-btn");
 const cityInput=document.getElementById("city-input");
     
-    const API_Key="498b61835ba702fa29c62f1e3eea6c99";
+    const API_Key="process.env.OPENWEATHER_API_KEY";
 
 
     getWeatherBtn.addEventListener('click',async ()=>{
